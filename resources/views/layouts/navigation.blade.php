@@ -48,6 +48,9 @@
                                 {{ __('Log Out') }}
                             </x-dropdown-link>
                         </form>
+                        <x-dropdown-link :href="route('ticket.index')">
+                            {{ __('Ticket') }}
+                        </x-dropdown-link>
                     </x-slot>
                 </x-dropdown>
             </div>
